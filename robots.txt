@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://casaprefab.ca/sitemap.xml
