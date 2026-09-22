@@ -9,7 +9,10 @@ const BASE = 'https://casaprefab.ca/';
 // Adresse qui reçoit les demandes du formulaire, par FormSubmit (aucun serveur à tenir).
 // À remplacer par info@casaprefab.ca dès que la boîte est ouverte, puis relancer build + deploy.
 const FORM_TO = 'miguel.dimas@casaprefab.ca';
-const POSTAL = 'Montréal, Québec, Canada';
+// Adresse d'affaires réelle, confirmée le 22 sept 2026 sur la page de contact de Solufab
+// (solufab.ca/en/contact.php). La LCAP l'exige dans tout courriel commercial et elle doit
+// rester valide au moins 60 jours après chaque envoi.
+const POSTAL = '4200, boulevard Poirier, Ville-Saint-Laurent (Québec) H4R 2C5';
 
 const url = f => BASE + (f === 'index.html' ? '' : f);
 const here = path.dirname(fileURLToPath(import.meta.url));

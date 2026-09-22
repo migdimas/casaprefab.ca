@@ -112,8 +112,8 @@ export const t = {
     b_lead: 'C’est tout l’intérêt du préfabriqué sur un projet financé : la production avance en parallèle des travaux d’aqueduc, au lieu d’attendre qu’ils finissent. Environ 45 jours en usine, sous inspection indépendante, à l’abri de la météo.',
 
     b2_eyebrow: 'Sur le terrain',
-    b2_title: 'Un seul répondant, du plan à la prise de possession.',
-    b2_lead: 'Usine, transport, grutage, montage, finition et garantie : un contrat, un interlocuteur. La municipalité garde le contrôle de son dossier, sans avoir à arbitrer entre quatre fournisseurs.',
+    b2_title: 'Un seul interlocuteur, du plan à la prise de possession.',
+    b2_lead: 'Usine, transport, grutage, montage et finition : Casaprefab coordonne la chaîne et vous n’avez qu’un numéro à composer. Les contrats, eux, vous lient directement au manufacturier et à l’entrepreneur licencié qui exécute. Personne n’a à arbitrer entre quatre fournisseurs, et la garantie vient de qui a bâti.',
 
     m_price_t: 'Et le prix ?',
     m_price_d: 'Il dépend du terrain, des services déjà en place, du transport jusqu’au site et du volume commandé. Nous ne publions pas de prix de vitrine : nous chiffrons votre projet, avec les inclusions écrites noir sur blanc, dans l’étude de faisabilité. C’est la seule façon honnête de promettre un plafond de 350 000 $ à un conseil municipal.',
@@ -168,12 +168,12 @@ export const t = {
     co4_d: 'Plan de la Garantie de construction résidentielle lorsque le bâtiment y est admissible, et la responsabilité de cinq ans prévue à l’article 2118 du Code civil. L’admissibilité et le répondant sont écrits dans l’étude de faisabilité.',
     co5_t: 'Dossier optimisé SCHL',
     co5_d: 'Le dossier est monté pour répondre aux exigences des programmes de la SCHL. Optimisé ne veut pas dire approuvé : l’approbation appartient au prêteur.',
-    co6_t: 'Un seul répondant',
-    co6_d: 'Usine, transport, montage et garantie : un seul contrat, un seul interlocuteur, une seule signature.',
+    co6_t: 'Un seul interlocuteur',
+    co6_d: 'Casaprefab monte le dossier et coordonne la chaîne, de l’usine à la prise de possession. Les travaux sont exécutés par des entreprises titulaires d’une licence de la Régie du bâtiment, qui contractent avec vous : c’est chez elles que se trouve la garantie, et leur numéro se vérifie au registre public.',
 
     faq_title: 'Les questions qu’on nous pose',
     q1: 'Est-ce que vous fabriquez les maisons vous-mêmes ?',
-    a1: 'Nous ne sommes pas une usine. Nous montons le projet et nous répondons du résultat : sélection du manufacturier certifié, contrat, calendrier de production, transport, montage et garantie. Le nom du manufacturier retenu pour votre projet apparaît dans l’étude de faisabilité.',
+    a1: 'Non, et nous ne sommes pas entrepreneur non plus. Casaprefab monte le dossier et coordonne : étude de faisabilité, sélection du manufacturier certifié, calendrier de production, transport et coordination du montage. Les travaux, eux, sont exécutés par des entreprises titulaires d’une licence de la Régie du bâtiment, qui contractent directement avec vous. Le nom du manufacturier et celui de l’entrepreneur retenus apparaissent dans l’étude de faisabilité, avec leur numéro de licence.',
     q2: 'Le terrain est-il inclus dans vos prix ?',
     a2: 'Cela dépend du montage. Sur un projet municipal, le terrain appartient généralement à la municipalité ou au promoteur, et notre prix porte sur la maison livrée et montée. Chaque inclusion est écrite dans l’étude de faisabilité, ligne par ligne. Nous ne disons jamais « tout compris » sans la liste à côté.',
     q3: 'Qu’arrive-t-il si notre demande FIERH est refusée ?',
@@ -362,8 +362,8 @@ export const t = {
     b_lead: 'That is the whole point of prefabrication on a funded project: production runs in parallel with the water works instead of waiting for them to finish. About 45 days in the plant, under independent inspection, out of the weather.',
 
     b2_eyebrow: 'On site',
-    b2_title: 'One party answers, from drawing to occupancy.',
-    b2_lead: 'Factory, transport, crane, assembly, finishing and warranty: one contract, one contact. The municipality keeps control of its file without refereeing between four suppliers.',
+    b2_title: 'One point of contact, from drawing to occupancy.',
+    b2_lead: 'Factory, transport, crane, assembly and finishing: Casaprefab coordinates the chain and you have one number to call. The contracts themselves bind you directly to the manufacturer and to the licensed contractor doing the work. Nobody has to referee between four suppliers, and the warranty comes from whoever built.',
 
     m_price_t: 'What about price?',
     m_price_d: 'It depends on the land, the services already in place, transport to the site and the volume ordered. We publish no showroom price: we cost your project, with the inclusions written down in black and white, inside the feasibility study. It is the only honest way to promise a $350,000 ceiling to a municipal council.',
@@ -418,12 +418,12 @@ export const t = {
     co4_d: 'Garantie de construction résidentielle plan coverage where the building qualifies, and the five year liability set out in article 2118 of the Civil Code. Eligibility and the party answering for it are written into the feasibility study.',
     co5_t: 'CMHC ready file',
     co5_d: 'The file is assembled to meet CMHC program requirements. Ready does not mean approved: approval belongs to the lender.',
-    co6_t: 'One party answers',
-    co6_d: 'Factory, transport, assembly and warranty: one contract, one contact, one signature.',
+    co6_t: 'One point of contact',
+    co6_d: 'Casaprefab assembles the file and coordinates the chain, from the plant to occupancy. The work is carried out by companies holding a Régie du bâtiment licence, which contract with you directly: that is where the warranty sits, and their number can be checked in the public register.',
 
     faq_title: 'What people ask us',
     q1: 'Do you manufacture the homes yourselves?',
-    a1: 'We are not a plant. We assemble the project and we answer for the result: selection of the certified manufacturer, contract, production schedule, transport, assembly and warranty. The manufacturer retained for your project is named in the feasibility study.',
+    a1: 'No, and we are not a contractor either. Casaprefab assembles the file and coordinates: feasibility study, selection of the certified manufacturer, production schedule, transport and assembly coordination. The work itself is carried out by companies holding a Régie du bâtiment licence, which contract with you directly. The manufacturer and the contractor retained are named in the feasibility study, with their licence numbers.',
     q2: 'Is the land included in your prices?',
     a2: 'It depends on the structure of the deal. On a municipal project the land usually belongs to the municipality or the developer, and our price covers the home delivered and assembled. Every inclusion is written into the feasibility study, line by line. We never say all inclusive without the list beside it.',
     q3: 'What happens if our FIERH application is turned down?',
