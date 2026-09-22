@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Casaprefab">
+  <g fill="currentColor">
+    <rect x="3" y="17" width="11" height="11" rx="1.4"/>
+    <rect x="17" y="17" width="11" height="11" rx="1.4"/>
+    <rect x="3" y="3" width="11" height="11" rx="1.4"/>
+  </g>
+  <g transform="rotate(-7 23.5 8)">
+    <rect x="18" y="2.5" width="11" height="11" rx="1.4" fill="#C25E37"/>
+  </g>
+</svg>
