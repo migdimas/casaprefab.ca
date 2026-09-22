@@ -104,7 +104,7 @@ export const t = {
     g_a3: 'Terrasse et espace extérieur privé',
     g_a4: 'Maison à pignon sur un terrain arboré',
     g_a5: 'Façade éclairée à la tombée du jour',
-    g_a6: 'Maison de plain-pied en fin de journée',
+    g_a6: 'Maison de plain-pied sous un ciel étoilé, façade et terrain éclairés',
     g_credit: 'Rendus du manufacturier partenaire. Le modèle retenu pour votre projet est confirmé à l’étude de faisabilité.',
 
     b_eyebrow: 'En usine',
@@ -130,6 +130,10 @@ export const t = {
     p4_d: 'Environ 45 jours. La production avance pendant que les fondations et les services se terminent sur le terrain.',
     p5_t: 'Livraison et montage',
     p5_d: 'Environ 30 jours de montage. Raccordements, finitions et inspection, jusqu’à la prise de possession.',
+
+    n_eyebrow: 'Une fois posée',
+    n_title: 'Le soir, une maison d’usine ne se distingue pas d’une maison bâtie sur place.',
+    n_lead: 'C’est l’objection qu’on entend le plus souvent autour d’une table de conseil. Les rendus du manufacturier montrent les modèles tels qu’ils sortent de la chaîne : mêmes revêtements, mêmes fenêtres, mêmes toitures que le reste de la rue.',
 
     fa_eyebrow: 'Le point d’entrée',
     fa_title: 'L’étude de faisabilité préfabriqué',
@@ -350,7 +354,7 @@ export const t = {
     g_a3: 'Terrace and private outdoor space',
     g_a4: 'Gabled home on a wooded lot',
     g_a5: 'Lit façade at nightfall',
-    g_a6: 'Single storey home at the end of the day',
+    g_a6: 'Single storey home under a starry sky, facade and grounds lit',
     g_credit: 'Renderings from the partner manufacturer. The model retained for your project is confirmed in the feasibility study.',
 
     b_eyebrow: 'In the factory',
@@ -376,6 +380,10 @@ export const t = {
     p4_d: 'About 45 days. Production advances while foundations and services are being finished on site.',
     p5_t: 'Delivery and assembly',
     p5_d: 'About 30 days on site. Connections, finishes and inspection, through to occupancy.',
+
+    n_eyebrow: 'Once it is set down',
+    n_title: 'After dark, a factory built home looks like every other home on the street.',
+    n_lead: 'That is the objection that comes up most often around a council table. The manufacturer’s renderings show the models as they come off the line: the same cladding, the same windows, the same roofs as the rest of the street.',
 
     fa_eyebrow: 'The way in',
     fa_title: 'The prefabrication feasibility study',

@@ -210,6 +210,12 @@ footer .logo{font-size:16px}
 .bande .wrap{position:relative;z-index:2;padding:clamp(32px,5vw,60px) 0}
 .bande h3{font-size:clamp(24px,3.2vw,38px);max-width:18ch;margin-bottom:12px}
 .bande p{color:#C6D8CD;max-width:46ch;font-size:16px}
+/* La photo de nuit porte deja son propre contraste : le voile des bandes claires
+   l'aplatirait. On le remplace par un degrade vertical qui n'assombrit que le bas,
+   la ou le texte se pose, et on laisse le ciel intact. */
+.bande.nuit{min-height:clamp(340px,52vw,620px);align-items:flex-end}
+.bande.nuit:after{background:linear-gradient(180deg,#0F1B2E00 30%,#0F1B2ECC 78%,#0F1B2EF2)}
+.bande.nuit p{color:#D8E2EC}
 
 /* etapes */
 .steps{counter-reset:s;display:grid;gap:0;border-top:1px solid var(--line)}
@@ -484,12 +490,11 @@ footer .logo{margin-bottom:14px}
       <button type="button" id="g-suiv" aria-label="{{g_next}}">&#8594;</button>
     </div>
     <div class="galerie reveal" id="galerie-piste">
-      <figure><img src="assets/photos/galerie-1.webp" alt="{{g_a1}}" width="1200" height="676" loading="lazy" decoding="async"></figure>
+      <figure><img src="assets/photos/galerie-6.webp" alt="{{g_a6}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-4.webp" alt="{{g_a2}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
+      <figure><img src="assets/photos/galerie-2.webp" alt="{{g_a5}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-3.webp" alt="{{g_a3}}" width="1200" height="676" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-5.webp" alt="{{g_a4}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/photos/galerie-2.webp" alt="{{g_a5}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/photos/galerie-6.webp" alt="{{g_a6}}" width="1200" height="800" loading="lazy" decoding="async"></figure>
     </div>
     <p class="credit">{{g_credit}}</p>
   </div>
@@ -517,6 +522,15 @@ footer .logo{margin-bottom:14px}
       <div class="step"><div><h3>{{p4_t}}</h3><p>{{p4_d}}</p></div></div>
       <div class="step"><div><h3>{{p5_t}}</h3><p>{{p5_d}}</p></div></div>
     </div>
+  </div>
+</section>
+
+<section class="bande nuit" aria-label="{{n_title}}" style="padding:0">
+  <img src="assets/photos/galerie-1.webp" alt="{{g_a1}}" width="1200" height="676" loading="lazy" decoding="async">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#E8A882">{{n_eyebrow}}</p>
+    <h3>{{n_title}}</h3>
+    <p>{{n_lead}}</p>
   </div>
 </section>
 

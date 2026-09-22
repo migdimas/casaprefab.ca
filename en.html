@@ -212,6 +212,12 @@ footer .logo{font-size:16px}
 .bande .wrap{position:relative;z-index:2;padding:clamp(32px,5vw,60px) 0}
 .bande h3{font-size:clamp(24px,3.2vw,38px);max-width:18ch;margin-bottom:12px}
 .bande p{color:#C6D8CD;max-width:46ch;font-size:16px}
+/* La photo de nuit porte deja son propre contraste : le voile des bandes claires
+   l'aplatirait. On le remplace par un degrade vertical qui n'assombrit que le bas,
+   la ou le texte se pose, et on laisse le ciel intact. */
+.bande.nuit{min-height:clamp(340px,52vw,620px);align-items:flex-end}
+.bande.nuit:after{background:linear-gradient(180deg,#0F1B2E00 30%,#0F1B2ECC 78%,#0F1B2EF2)}
+.bande.nuit p{color:#D8E2EC}
 
 /* etapes */
 .steps{counter-reset:s;display:grid;gap:0;border-top:1px solid var(--line)}
@@ -486,12 +492,11 @@ footer .logo{margin-bottom:14px}
       <button type="button" id="g-suiv" aria-label="Next image">&#8594;</button>
     </div>
     <div class="galerie reveal" id="galerie-piste">
-      <figure><img src="assets/photos/galerie-1.webp" alt="Home lit at dusk on a residential street" width="1200" height="676" loading="lazy" decoding="async"></figure>
+      <figure><img src="assets/photos/galerie-6.webp" alt="Single storey home under a starry sky, facade and grounds lit" width="1200" height="800" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-4.webp" alt="Home with carport and landscaping" width="1200" height="800" loading="lazy" decoding="async"></figure>
+      <figure><img src="assets/photos/galerie-2.webp" alt="Lit façade at nightfall" width="1200" height="800" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-3.webp" alt="Terrace and private outdoor space" width="1200" height="676" loading="lazy" decoding="async"></figure>
       <figure><img src="assets/photos/galerie-5.webp" alt="Gabled home on a wooded lot" width="1200" height="800" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/photos/galerie-2.webp" alt="Lit façade at nightfall" width="1200" height="800" loading="lazy" decoding="async"></figure>
-      <figure><img src="assets/photos/galerie-6.webp" alt="Single storey home at the end of the day" width="1200" height="800" loading="lazy" decoding="async"></figure>
     </div>
     <p class="credit">Renderings from the partner manufacturer. The model retained for your project is confirmed in the feasibility study.</p>
   </div>
@@ -519,6 +524,15 @@ footer .logo{margin-bottom:14px}
       <div class="step"><div><h3>Factory production</h3><p>About 45 days. Production advances while foundations and services are being finished on site.</p></div></div>
       <div class="step"><div><h3>Delivery and assembly</h3><p>About 30 days on site. Connections, finishes and inspection, through to occupancy.</p></div></div>
     </div>
+  </div>
+</section>
+
+<section class="bande nuit" aria-label="After dark, a factory built home looks like every other home on the street." style="padding:0">
+  <img src="assets/photos/galerie-1.webp" alt="Home lit at dusk on a residential street" width="1200" height="676" loading="lazy" decoding="async">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#E8A882">Once it is set down</p>
+    <h3>After dark, a factory built home looks like every other home on the street.</h3>
+    <p>That is the objection that comes up most often around a council table. The manufacturer’s renderings show the models as they come off the line: the same cladding, the same windows, the same roofs as the rest of the street.</p>
   </div>
 </section>
 
