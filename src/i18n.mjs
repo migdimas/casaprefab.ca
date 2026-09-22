@@ -146,7 +146,7 @@ export const t = {
     au_eyebrow: 'Pour qui',
     au_title: 'Trois interlocuteurs, trois questions différentes.',
     au1_t: 'Municipalités et MRC',
-    au1_d: 'Vous avez déposé au FIERH ou vous préparez le prochain appel. Votre question est : est-ce que des maisons sous 350 000 $ sont réellement livrables sur ce secteur, et dans quel délai ?',
+    au1_d: 'L’appel de projets du FIERH s’est fermé le 18 septembre. Vous avez déposé, ou vous préparez le prochain. Votre question est : est-ce que des maisons sous 350 000 $ sont réellement livrables sur ce secteur, et dans quel délai ?',
     au2_t: 'Promoteurs',
     au2_d: 'Vous regardez un terrain qui va être desservi. Votre question est : quel est mon coût par porte, et combien de portes ce lot peut absorber sans faire exploser le calendrier ?',
     au3_t: 'Entrepreneurs généraux',
@@ -158,10 +158,10 @@ export const t = {
     co1_d: 'Certification d’usine des bâtiments préfabriqués : la conformité est vérifiée en usine, par un organisme indépendant, avant le départ du module.',
     co2_t: 'Plans scellés',
     co2_d: 'Plans d’ingénieur scellés, conformes au Code de construction du Québec.',
-    co3_t: 'RBQ',
-    co3_d: 'Travaux exécutés sous licence de la Régie du bâtiment du Québec.',
-    co4_t: 'Garantie 10 ans',
-    co4_d: 'Garantie de dix ans sur la structure.',
+    co3_t: 'Licences vérifiables',
+    co3_d: 'Chaque entreprise qui exécute des travaux sur le projet est nommée dans l’étude de faisabilité, avec son numéro de licence de la Régie du bâtiment du Québec. Le registre public de la Régie permet de le vérifier avant de signer.',
+    co4_t: 'Garantie encadrée par la loi',
+    co4_d: 'Plan de la Garantie de construction résidentielle lorsque le bâtiment y est admissible, et la responsabilité de cinq ans prévue à l’article 2118 du Code civil. L’admissibilité et le répondant sont écrits dans l’étude de faisabilité.',
     co5_t: 'Dossier optimisé SCHL',
     co5_d: 'Le dossier est monté pour répondre aux exigences des programmes de la SCHL. Optimisé ne veut pas dire approuvé : l’approbation appartient au prêteur.',
     co6_t: 'Un seul répondant',
@@ -201,7 +201,7 @@ export const t = {
     f_o_u4: '200 et plus',
     f_q4: 'Vos coordonnées',
     f_name: 'Nom complet',
-    f_org: 'Municipalité ou organisation',
+    f_org: 'Organisation',
     f_email: 'Courriel',
     f_phone: 'Téléphone',
     f_msg: 'Le secteur visé, et ce que vous voulez savoir en premier',
@@ -213,7 +213,7 @@ export const t = {
     f_ko: 'L’envoi a échoué. Écrivez directement à miguel.dimas@casaprefab.ca, la demande se rend tout de suite.',
     f_required: 'Ce champ est obligatoire.',
 
-    foot_tag: 'Maisons préfabriquées pour les projets résidentiels municipaux au Québec.',
+    foot_tag: 'Maisons préfabriquées pour les projets résidentiels au Québec.',
     foot_contact: 'Nous joindre',
     foot_legal: 'Mentions',
     foot_privacy: 'Politique de confidentialité',
@@ -228,7 +228,7 @@ export const t = {
 <p>Miguel Dimas, Casaprefab. Toute question, toute demande d’accès, de rectification ou de retrait s’adresse à <a href="mailto:miguel.dimas@casaprefab.ca">miguel.dimas@casaprefab.ca</a>. Vous avez une réponse dans les trente jours.</p>
 
 <h2>Ce qui est recueilli</h2>
-<p>Uniquement ce que vous inscrivez vous-même dans le formulaire : votre nom, le nom de votre municipalité ou de votre organisation, votre courriel, votre téléphone si vous le donnez, votre message, ainsi que les trois réponses de qualification (votre rôle, l’état du projet, le nombre d’unités visé) et l’adresse de la page d’où la demande a été envoyée.</p>
+<p>Uniquement ce que vous inscrivez vous-même dans le formulaire : votre nom, le nom de votre organisation, votre courriel, votre téléphone si vous le donnez, votre message, ainsi que les trois réponses de qualification (votre rôle, l’état du projet, le nombre d’unités visé) et l’adresse de la page d’où la demande a été envoyée.</p>
 
 <h2>Pourquoi</h2>
 <p>Pour vous répondre et pour évaluer votre projet. Rien d’autre. Vos renseignements ne sont ni vendus, ni loués, ni échangés, et ne servent à aucune publicité.</p>
@@ -392,7 +392,7 @@ export const t = {
     au_eyebrow: 'Who this is for',
     au_title: 'Three audiences, three different questions.',
     au1_t: 'Municipalities and RCMs',
-    au1_d: 'You filed under FIERH, or you are preparing for the next call. Your question is whether homes under $350,000 can actually be delivered on this site, and how fast.',
+    au1_d: 'The FIERH call for projects closed on 18 September. You filed, or you are preparing for the next one. Your question is whether homes under $350,000 can actually be delivered on this site, and how fast.',
     au2_t: 'Developers',
     au2_d: 'You are looking at land that is about to be serviced. Your question is your cost per door, and how many doors the parcel can absorb without blowing up the schedule.',
     au3_t: 'General contractors',
@@ -404,10 +404,10 @@ export const t = {
     co1_d: 'Factory certification for prefabricated buildings: compliance is verified in the plant, by an independent body, before the module ships.',
     co2_t: 'Sealed drawings',
     co2_d: 'Engineer sealed drawings, compliant with the Quebec Construction Code.',
-    co3_t: 'RBQ',
-    co3_d: 'Work carried out under a Régie du bâtiment du Québec licence.',
-    co4_t: '10 year warranty',
-    co4_d: 'Ten year structural warranty.',
+    co3_t: 'Verifiable licences',
+    co3_d: 'Every company carrying out work on the project is named in the feasibility study, with its Régie du bâtiment du Québec licence number. The Régie public register lets you check it before you sign.',
+    co4_t: 'Warranty set by law',
+    co4_d: 'Garantie de construction résidentielle plan coverage where the building qualifies, and the five year liability set out in article 2118 of the Civil Code. Eligibility and the party answering for it are written into the feasibility study.',
     co5_t: 'CMHC ready file',
     co5_d: 'The file is assembled to meet CMHC program requirements. Ready does not mean approved: approval belongs to the lender.',
     co6_t: 'One party answers',
@@ -447,7 +447,7 @@ export const t = {
     f_o_u4: '200 and up',
     f_q4: 'Your contact details',
     f_name: 'Full name',
-    f_org: 'Municipality or organization',
+    f_org: 'Organization',
     f_email: 'Email',
     f_phone: 'Phone',
     f_msg: 'The site you have in mind, and what you want to know first',
@@ -459,7 +459,7 @@ export const t = {
     f_ko: 'The send failed. Write straight to miguel.dimas@casaprefab.ca and it reaches us right away.',
     f_required: 'This field is required.',
 
-    foot_tag: 'Prefabricated homes for municipal residential projects in Quebec.',
+    foot_tag: 'Prefabricated homes for residential projects in Quebec.',
     foot_contact: 'Contact',
     foot_legal: 'Legal',
     foot_privacy: 'Privacy policy',
@@ -474,7 +474,7 @@ export const t = {
 <p>Miguel Dimas, Casaprefab. Any question, and any request for access, correction or withdrawal, goes to <a href="mailto:miguel.dimas@casaprefab.ca">miguel.dimas@casaprefab.ca</a>. You get an answer within thirty days.</p>
 
 <h2>What is collected</h2>
-<p>Only what you enter yourself in the form: your name, the name of your municipality or organization, your email, your phone number if you provide one, your message, the three qualification answers (your role, the stage of the project, the number of units you are aiming for), and the address of the page the request was sent from.</p>
+<p>Only what you enter yourself in the form: your name, the name of your organization, your email, your phone number if you provide one, your message, the three qualification answers (your role, the stage of the project, the number of units you are aiming for), and the address of the page the request was sent from.</p>
 
 <h2>Why</h2>
 <p>To answer you and to assess your project. Nothing else. Your information is never sold, rented or traded, and is never used for advertising.</p>

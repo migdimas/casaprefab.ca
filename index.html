@@ -549,9 +549,12 @@ footer .logo{margin-bottom:14px}
       <h2 class="headline">Trois interlocuteurs, trois questions différentes.</h2>
     </div>
     <div class="grid-3 reveal">
-      <div class="card"><h3>Municipalités et MRC</h3><p>Vous avez déposé au FIERH ou vous préparez le prochain appel. Votre question est : est-ce que des maisons sous 350 000 $ sont réellement livrables sur ce secteur, et dans quel délai ?</p></div>
+      <!-- Ordre volontaire : celui qui signe le contrat vient en premier. La municipalite
+           prescrit et finance les infrastructures, mais c est le promoteur ou l entrepreneur
+           general qui achete les modules. Les cles i18n gardent leur numerotation d origine. -->
       <div class="card"><h3>Promoteurs</h3><p>Vous regardez un terrain qui va être desservi. Votre question est : quel est mon coût par porte, et combien de portes ce lot peut absorber sans faire exploser le calendrier ?</p></div>
       <div class="card"><h3>Entrepreneurs généraux</h3><p>Vous avez la capacité d’exécution mais pas la file d’usine. Votre question est : qui livre les modules, à quelle date ferme, et qui répond de la garantie ?</p></div>
+      <div class="card"><h3>Municipalités et MRC</h3><p>L’appel de projets du FIERH s’est fermé le 18 septembre. Vous avez déposé, ou vous préparez le prochain. Votre question est : est-ce que des maisons sous 350 000 $ sont réellement livrables sur ce secteur, et dans quel délai ?</p></div>
     </div>
   </div>
 </section>
@@ -565,8 +568,8 @@ footer .logo{margin-bottom:14px}
     <div class="conf reveal">
       <div><h3>CAN/CSA-A277</h3><p>Certification d’usine des bâtiments préfabriqués : la conformité est vérifiée en usine, par un organisme indépendant, avant le départ du module.</p></div>
       <div><h3>Plans scellés</h3><p>Plans d’ingénieur scellés, conformes au Code de construction du Québec.</p></div>
-      <div><h3>RBQ</h3><p>Travaux exécutés sous licence de la Régie du bâtiment du Québec.</p></div>
-      <div><h3>Garantie 10 ans</h3><p>Garantie de dix ans sur la structure.</p></div>
+      <div><h3>Licences vérifiables</h3><p>Chaque entreprise qui exécute des travaux sur le projet est nommée dans l’étude de faisabilité, avec son numéro de licence de la Régie du bâtiment du Québec. Le registre public de la Régie permet de le vérifier avant de signer.</p></div>
+      <div><h3>Garantie encadrée par la loi</h3><p>Plan de la Garantie de construction résidentielle lorsque le bâtiment y est admissible, et la responsabilité de cinq ans prévue à l’article 2118 du Code civil. L’admissibilité et le répondant sont écrits dans l’étude de faisabilité.</p></div>
       <div><h3>Dossier optimisé SCHL</h3><p>Le dossier est monté pour répondre aux exigences des programmes de la SCHL. Optimisé ne veut pas dire approuvé : l’approbation appartient au prêteur.</p></div>
       <div><h3>Un seul répondant</h3><p>Usine, transport, montage et garantie : un seul contrat, un seul interlocuteur, une seule signature.</p></div>
     </div>
@@ -615,9 +618,9 @@ footer .logo{margin-bottom:14px}
         <fieldset class="on" data-step="1">
           <legend>Vous êtes...</legend>
           <div class="choices">
-            <label class="choice"><input type="radio" name="profil" value="Une municipalité ou une MRC" required><span>Une municipalité ou une MRC</span></label>
-            <label class="choice"><input type="radio" name="profil" value="Un promoteur"><span>Un promoteur</span></label>
+            <label class="choice"><input type="radio" name="profil" value="Un promoteur" required><span>Un promoteur</span></label>
             <label class="choice"><input type="radio" name="profil" value="Un entrepreneur général"><span>Un entrepreneur général</span></label>
+            <label class="choice"><input type="radio" name="profil" value="Une municipalité ou une MRC"><span>Une municipalité ou une MRC</span></label>
             <label class="choice"><input type="radio" name="profil" value="Autre"><span>Autre</span></label>
           </div>
         </fieldset>
@@ -625,9 +628,9 @@ footer .logo{margin-bottom:14px}
         <fieldset data-step="2">
           <legend>Où en est le projet ?</legend>
           <div class="choices">
-            <label class="choice"><input type="radio" name="etape" value="Demande déposée au FIERH"><span>Demande déposée au FIERH</span></label>
-            <label class="choice"><input type="radio" name="etape" value="On prépare un prochain appel de projets"><span>On prépare un prochain appel de projets</span></label>
             <label class="choice"><input type="radio" name="etape" value="Terrain identifié, financement à monter"><span>Terrain identifié, financement à monter</span></label>
+            <label class="choice"><input type="radio" name="etape" value="On prépare un prochain appel de projets"><span>On prépare un prochain appel de projets</span></label>
+            <label class="choice"><input type="radio" name="etape" value="Demande déposée au FIERH"><span>Demande déposée au FIERH</span></label>
             <label class="choice"><input type="radio" name="etape" value="On explore, rien n’est arrêté"><span>On explore, rien n’est arrêté</span></label>
           </div>
         </fieldset>
@@ -647,7 +650,7 @@ footer .logo{margin-bottom:14px}
           <div class="fields">
             <div class="two">
               <div><label class="lbl" for="n">Nom complet</label><input id="n" type="text" name="nom" autocomplete="name" required></div>
-              <div><label class="lbl" for="o">Municipalité ou organisation</label><input id="o" type="text" name="organisation" autocomplete="organization" required></div>
+              <div><label class="lbl" for="o">Organisation</label><input id="o" type="text" name="organisation" autocomplete="organization" required></div>
             </div>
             <div class="two">
               <div><label class="lbl" for="e">Courriel</label><input id="e" type="email" name="courriel" autocomplete="email" required></div>
@@ -682,7 +685,7 @@ footer .logo{margin-bottom:14px}
     <div class="foot-grid">
       <div>
         <div class="logo"><svg viewBox="0 0 32 32" role="img" aria-label="Casaprefab"><g fill="currentColor"><rect x="3" y="17" width="11" height="11" rx="1.4"/><rect x="17" y="17" width="11" height="11" rx="1.4"/><rect x="3" y="3" width="11" height="11" rx="1.4"/></g><g transform="rotate(-7 23.5 8)"><rect x="18" y="2.5" width="11" height="11" rx="1.4" fill="#C25E37"/></g></svg><b>Casaprefab</b></div>
-        <p style="max-width:40ch">Maisons préfabriquées pour les projets résidentiels municipaux au Québec.</p>
+        <p style="max-width:40ch">Maisons préfabriquées pour les projets résidentiels au Québec.</p>
       </div>
       <div>
         <h4>Nous joindre</h4>

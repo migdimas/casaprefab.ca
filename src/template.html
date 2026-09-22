@@ -547,9 +547,12 @@ footer .logo{margin-bottom:14px}
       <h2 class="headline">{{au_title}}</h2>
     </div>
     <div class="grid-3 reveal">
-      <div class="card"><h3>{{au1_t}}</h3><p>{{au1_d}}</p></div>
+      <!-- Ordre volontaire : celui qui signe le contrat vient en premier. La municipalite
+           prescrit et finance les infrastructures, mais c est le promoteur ou l entrepreneur
+           general qui achete les modules. Les cles i18n gardent leur numerotation d origine. -->
       <div class="card"><h3>{{au2_t}}</h3><p>{{au2_d}}</p></div>
       <div class="card"><h3>{{au3_t}}</h3><p>{{au3_d}}</p></div>
+      <div class="card"><h3>{{au1_t}}</h3><p>{{au1_d}}</p></div>
     </div>
   </div>
 </section>
@@ -613,9 +616,9 @@ footer .logo{margin-bottom:14px}
         <fieldset class="on" data-step="1">
           <legend>{{f_q1}}</legend>
           <div class="choices">
-            <label class="choice"><input type="radio" name="profil" value="{{f_o_muni}}" required><span>{{f_o_muni}}</span></label>
-            <label class="choice"><input type="radio" name="profil" value="{{f_o_promo}}"><span>{{f_o_promo}}</span></label>
+            <label class="choice"><input type="radio" name="profil" value="{{f_o_promo}}" required><span>{{f_o_promo}}</span></label>
             <label class="choice"><input type="radio" name="profil" value="{{f_o_eg}}"><span>{{f_o_eg}}</span></label>
+            <label class="choice"><input type="radio" name="profil" value="{{f_o_muni}}"><span>{{f_o_muni}}</span></label>
             <label class="choice"><input type="radio" name="profil" value="{{f_o_autre}}"><span>{{f_o_autre}}</span></label>
           </div>
         </fieldset>
@@ -623,9 +626,9 @@ footer .logo{margin-bottom:14px}
         <fieldset data-step="2">
           <legend>{{f_q2}}</legend>
           <div class="choices">
-            <label class="choice"><input type="radio" name="etape" value="{{f_o_fierh}}"><span>{{f_o_fierh}}</span></label>
-            <label class="choice"><input type="radio" name="etape" value="{{f_o_prep}}"><span>{{f_o_prep}}</span></label>
             <label class="choice"><input type="radio" name="etape" value="{{f_o_terrain}}"><span>{{f_o_terrain}}</span></label>
+            <label class="choice"><input type="radio" name="etape" value="{{f_o_prep}}"><span>{{f_o_prep}}</span></label>
+            <label class="choice"><input type="radio" name="etape" value="{{f_o_fierh}}"><span>{{f_o_fierh}}</span></label>
             <label class="choice"><input type="radio" name="etape" value="{{f_o_explore}}"><span>{{f_o_explore}}</span></label>
           </div>
         </fieldset>
