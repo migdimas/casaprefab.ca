@@ -210,7 +210,7 @@ export const t = {
     f_next: 'Suivant',
     f_submit: 'Envoyer la demande',
     f_ok: 'Reçu. Vous avez une réponse en un jour ouvrable.',
-    f_ko: 'L’envoi a échoué. Écrivez directement à info@casaprefab.ca, la demande se rend tout de suite.',
+    f_ko: 'L’envoi a échoué. Écrivez directement à miguel.dimas@casaprefab.ca, la demande se rend tout de suite.',
     f_required: 'Ce champ est obligatoire.',
 
     foot_tag: 'Maisons préfabriquées pour les projets résidentiels municipaux au Québec.',
@@ -225,7 +225,7 @@ export const t = {
 <p class="lead">Casaprefab recueille des renseignements personnels par le formulaire de ce site. Cette politique dit lesquels, pourquoi, pendant combien de temps, et ce que vous pouvez exiger. Elle est rédigée conformément à la Loi sur la protection des renseignements personnels dans le secteur privé du Québec, telle que modifiée par la Loi 25.</p>
 
 <h2>Le responsable de la protection des renseignements personnels</h2>
-<p>Miguel Dimas, Casaprefab. Toute question, toute demande d’accès, de rectification ou de retrait s’adresse à <a href="mailto:info@casaprefab.ca">info@casaprefab.ca</a>. Vous avez une réponse dans les trente jours.</p>
+<p>Miguel Dimas, Casaprefab. Toute question, toute demande d’accès, de rectification ou de retrait s’adresse à <a href="mailto:miguel.dimas@casaprefab.ca">miguel.dimas@casaprefab.ca</a>. Vous avez une réponse dans les trente jours.</p>
 
 <h2>Ce qui est recueilli</h2>
 <p>Uniquement ce que vous inscrivez vous-même dans le formulaire : votre nom, le nom de votre municipalité ou de votre organisation, votre courriel, votre téléphone si vous le donnez, votre message, ainsi que les trois réponses de qualification (votre rôle, l’état du projet, le nombre d’unités visé) et l’adresse de la page d’où la demande a été envoyée.</p>
@@ -456,7 +456,7 @@ export const t = {
     f_next: 'Next',
     f_submit: 'Send the request',
     f_ok: 'Received. You will have an answer within one business day.',
-    f_ko: 'The send failed. Write straight to info@casaprefab.ca and it reaches us right away.',
+    f_ko: 'The send failed. Write straight to miguel.dimas@casaprefab.ca and it reaches us right away.',
     f_required: 'This field is required.',
 
     foot_tag: 'Prefabricated homes for municipal residential projects in Quebec.',
@@ -471,7 +471,7 @@ export const t = {
 <p class="lead">Casaprefab collects personal information through the form on this site. This policy states what is collected, why, for how long, and what you can require of us. It is written to comply with Quebec’s Act respecting the protection of personal information in the private sector, as amended by Law 25.</p>
 
 <h2>Person in charge of the protection of personal information</h2>
-<p>Miguel Dimas, Casaprefab. Any question, and any request for access, correction or withdrawal, goes to <a href="mailto:info@casaprefab.ca">info@casaprefab.ca</a>. You get an answer within thirty days.</p>
+<p>Miguel Dimas, Casaprefab. Any question, and any request for access, correction or withdrawal, goes to <a href="mailto:miguel.dimas@casaprefab.ca">miguel.dimas@casaprefab.ca</a>. You get an answer within thirty days.</p>
 
 <h2>What is collected</h2>
 <p>Only what you enter yourself in the form: your name, the name of your municipality or organization, your email, your phone number if you provide one, your message, the three qualification answers (your role, the stage of the project, the number of units you are aiming for), and the address of the page the request was sent from.</p>

@@ -8,7 +8,7 @@ import { t, langs } from './src/i18n.mjs';
 const BASE = 'https://casaprefab.ca/';
 // Adresse qui reçoit les demandes du formulaire, par FormSubmit (aucun serveur à tenir).
 // À remplacer par info@casaprefab.ca dès que la boîte est ouverte, puis relancer build + deploy.
-const FORM_TO = 'miguel.dimas@klimbo.co';
+const FORM_TO = 'miguel.dimas@casaprefab.ca';
 const POSTAL = 'Montréal, Québec, Canada';
 
 const url = f => BASE + (f === 'index.html' ? '' : f);
@@ -56,31 +56,32 @@ for (const [l, cfg] of Object.entries(langs)) {
 <link rel="canonical" href="${url(cfg.privacy)}">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <style>
-:root{--deep:#0E1F18;--accent:#2E8B5B;--ink:#12181A;--ink2:#4A5A54;--paper:#FBFAF6;--line:#DCD8CC}
+:root{--deep:#0F1B2E;--accent:#C25E37;--ink:#141A22;--ink2:#4C5563;--paper:#FAF7F2;--line:#DDD3C6}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;letter-spacing:-.009em}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6;letter-spacing:-.009em}
 a{color:var(--accent)}
 header{background:var(--deep);padding:18px 0}
 .wrap{width:min(760px,calc(100% - 40px));margin-inline:auto}
-.logo{color:#fff;font-weight:750;font-size:19px;letter-spacing:-.03em;text-decoration:none}
-.logo i{font-style:normal;color:#7FD3A4}
+.logo{color:#fff;font-size:16px;letter-spacing:.09em;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;gap:9px;font-family:'Space Grotesk','Segoe UI',system-ui,sans-serif;font-weight:700}
+.logo svg{width:24px;height:24px}
+@font-face{font-family:'Space Grotesk';src:url('assets/fonts/space-grotesk-latin.woff2') format('woff2');font-weight:500 700;font-display:swap}
 main{padding:56px 0 72px}
-h1{font-size:clamp(30px,4.4vw,42px);font-weight:680;letter-spacing:-.03em;line-height:1.1;margin-bottom:10px}
+h1{font-family:'Space Grotesk','Segoe UI',system-ui,sans-serif;font-size:clamp(30px,4.4vw,42px);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin-bottom:10px}
 .date{font-size:13.5px;color:#8A9993;margin-bottom:34px}
 .lead{font-size:18px;color:var(--ink2);margin-bottom:8px}
-h2{font-size:19px;font-weight:660;letter-spacing:-.02em;margin:32px 0 8px}
+h2{font-family:'Space Grotesk','Segoe UI',system-ui,sans-serif;font-size:19px;font-weight:700;letter-spacing:-.02em;margin:32px 0 8px}
 p{color:var(--ink2);font-size:16px}
 footer{border-top:1px solid var(--line);padding:26px 0;font-size:14px;color:#8A9993}
 </style>
 </head>
 <body>
-<header><div class="wrap"><a href="${cfg.file === 'index.html' ? './' : cfg.file}" class="logo">casa<i>prefab</i></a></div></header>
+<header><div class="wrap"><a href="${cfg.file === 'index.html' ? './' : cfg.file}" class="logo"><svg viewBox="0 0 32 32"><g fill="#F0EAE1"><rect x="3" y="17" width="11" height="11" rx="1.4"/><rect x="17" y="17" width="11" height="11" rx="1.4"/><rect x="3" y="3" width="11" height="11" rx="1.4"/></g><g transform="rotate(-7 23.5 8)"><rect x="18" y="2.5" width="11" height="11" rx="1.4" fill="#E8A882"/></g></svg>Casaprefab</a></div></header>
 <main><div class="wrap">
 <h1>${d.privacy_title}</h1>
 <p class="date">${d.privacy_updated} ${new Date().toISOString().slice(0, 10)}</p>
 ${d.privacy_body.trim()}
 </div></main>
-<footer><div class="wrap"><a href="${cfg.file === 'index.html' ? './' : cfg.file}">${d.privacy_back}</a> · info@casaprefab.ca</div></footer>
+<footer><div class="wrap"><a href="${cfg.file === 'index.html' ? './' : cfg.file}">${d.privacy_back}</a> · miguel.dimas@casaprefab.ca</div></footer>
 </body>
 </html>
 `;
